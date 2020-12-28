@@ -1,0 +1,30 @@
+* {
+    font-family: arial, sans-serif;
+    
+}
+
+
+.headerNav {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.leftNav {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    padding-left: 15px;
+}
+
+.rightNav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50%;
+    width: 50%;
+    padding-left: 15px;
+}
+
+div {
+    padding: .5%;
+}
