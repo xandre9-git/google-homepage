@@ -3,6 +3,32 @@
     
 }
 
+div {
+    padding: .5%;
+}
+
+form {
+    margin-top: 3%;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 .headerNav {
     display: flex;
@@ -17,6 +43,10 @@
     padding-left: 15px;
 }
 
+.leftNav a {
+    padding-right: 15px;
+}
+
 .rightNav {
     display: flex;
     justify-content: flex-end;
@@ -25,6 +55,14 @@
     padding-left: 15px;
 }
 
-div {
-    padding: .5%;
+.rightNav a {
+    padding-right: 15px;
 }
+
+img.googleLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
