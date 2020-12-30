@@ -6,35 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="reset.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/zli4pqh.css">
     <title>Google</title>
 </head>
 
 <body>
-    
-    <nav>
-        <div class="headerNav">
-            <div class="leftNav">
-                <div><a href="#About">About</a></div>
-                <div><a href="#Store">Store</a></div>
+    <section class="top">
+        <nav>
+            <div class="headerNav">
+                <div class="leftNav">
+                    <div><a href="#About">About</a></div>
+                    <div><a href="#Store">Store</a></div>
+                </div>
+                <div class="rightNav">
+                    <div><a href="#Gmail">Gmail</a></div>
+                    <div><a href="#Images">Images</a></div>
+                    <div><a href="#GridBox" class="grid"></a></div>
+                    <div><a href="#SignIn"><button>Sign-In</button></a></div>
+                </div>
             </div>
-            <div class="rightNav">
-                <div><a href="#Gmail">Gmail</a></div>
-                <div><a href="#Images">Images</a></div>
-                <div><a href="#GridBox">3x3</a></div>
-                <div><a href="#SignIn">Button</a></div>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
 
-    <section>
-        <img class="googleLogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <div>
-        <form>
-            <input type="text" placeholder="Search Google or type a URL">
+    <section class="middle">
+        <img class="googleLogo"
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <div class="searchBox">
+            <form>
+                <input type="text" placeholder="Search Google or type a URL">
+            </form>
+        </div>
+        <div class="searchButtons">
             <button>Google Search</button>
             <button>I'm feeling lucky!</button>
-        </form>
-    </div>
+        </div>
+    </section>
+
+    <section class="bottom">
+        <nav class="footerNav">
+            <div class="leftNav">
+                <div><a href="#Advertising">Advertising</a></div>
+                <div><a href="#Business">Business</a></div>
+                <div><a href="#HSW">How Search Works</a></div>
+            </div>
+            <div class="rightNav">
+                <div><a href="#Privacy">Privacy</a></div>
+                <div><a href="#Terms">Terms</a></div>
+                <div><a href="#Settings">Settings</a></div>
+            </div>
+
+        </nav>
     </section>
 
 </body>
