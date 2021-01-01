@@ -100,6 +100,16 @@
   
   .searchButtons {
     text-align: center;
+    margin-top: 1.5%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .searchButtons button {
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   .footerNav {
@@ -141,7 +151,7 @@
   .micButton {
     position: absolute;
     padding-top: .25%;
-    /* left: 61%; */
+    left: 61%;
     height: 30px;
   }
   
