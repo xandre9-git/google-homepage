@@ -1,77 +1,77 @@
 * {
     font-family: liberation-sans, sans-serif;
-    
-}
-
-div {
+  
+  }
+  
+  div {
     padding: .5%;
-}
-
-form {
+  }
+  
+  form {
     margin-top: 3%;
     text-align: center;
-}
-
-
-a {
-
+  }
+  
+  
+  a {
+  
     text-decoration: none;
     color: black;
-}
-
-a:link {
+  }
+  
+  a:link {
     text-decoration: none;
-}
-
-a:visited {
+  }
+  
+  a:visited {
     text-decoration: none;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     text-decoration: underline;
-}
-
-.headerNav {
+  }
+  
+  .headerNav {
     display: flex;
     flex-flow: row-wrap;
     font-size: 14px;
-}
-
-.leftNav {
+  }
+  
+  .leftNav {
     display: flex;
     justify-content: flex-start;
     width: 75%;
     padding-left: 15px;
-}
-
-.leftNav a {
+  }
+  
+  .leftNav a {
     padding-right: 15px;
     display: block;
     width: auto;
-}
-
-.rightNav {
+  }
+  
+  .rightNav {
     display: flex;
     justify-content: flex-end;
     margin-left: 50%;
     width: 50%;
     padding-left: 15px;
-}
-
-.rightNav a {
+  }
+  
+  .rightNav a {
     padding-right: 15px;
-}
-
-.grid {
+  }
+  
+  .grid {
     background-position: -132px -38px;
     background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     padding-right: 30px;
     padding-top: 9px;
     padding-left: 21px;
-}
-
-.rightNav button {
-    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  }
+  
+  .rightNav button {
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -82,34 +82,66 @@ a:hover {
     padding-right: 12px;
     margin-top: -30%;
     outline: none;
-
-}
-
-img.googleLogo {
+  
+  }
+  
+  img.googleLogo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-}
-
-.searchButtons {
+  }
+  
+  .searchBox {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .searchButtons {
     text-align: center;
-}
-
-.footerNav {
+  }
+  
+  .footerNav {
     display: flex;
     flex-direction: row;
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: rgb(238, 236, 236);
-}
-
-input[type=text] {
+  }
+  
+  input[type=text] {
     width: 450px;
-    text-align: center;
-    border: 1px solid grey;
+  
+  
+    border: 1px solid lightgray;
     border-radius: 25px;
     height: 40px;
     outline: none;
-}
+  
+  }
+  
+  input[type=text]:hover {
+    box-shadow: 2px 2px 10px lightgray, -2px 2px 10px lightgray;
+  
+  }
+  
+  #searchBar {
+    background-image: url('http://assets.stickpng.com/thumbs/585e4ae1cb11b227491c3393.png');
+    background-position-x: 3%;
+    background-position-y: center;
+    position: left;
+    padding-left: 40px;
+    background-size: 15px;
+    /* background-size: 20px; */
+    background-repeat: no-repeat;
+  }
+  
+  .micButton {
+    position: absolute;
+    padding-top: .25%;
+    /* left: 61%; */
+    height: 30px;
+  }
+  
