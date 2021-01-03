@@ -93,15 +93,20 @@
   }
   
   .searchBox {
-    position: relative;
-    padding: 0;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .searchBox:hover {
+    box-shadow: 0px 0px 10px lightgray, -0px 0px 0px lightgray;
+    width: 550px;
   }
   
   .searchButtons {
     text-align: center;
     margin-top: 1.5%;
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: 10px;
   }
 
@@ -110,6 +115,14 @@
     margin-top: 1.5%;
     margin-left: 10px;
     margin-right: 10px;
+    border: 0px;
+    height: 40px;
+    width: 120px;
+    border-radius: 3px;
+  }
+
+  .searchButtons button:hover {
+    border: 1px solid lightgray;
   }
   
   .footerNav {
@@ -122,36 +135,43 @@
   }
   
   input[type=text] {
-    width: 450px;
-  
-  
+    width: 450px;  
     border: 1px solid lightgray;
-    border-radius: 25px;
+    border-right: 0px;
+    border-radius: 25px 0 0 25px;
     height: 40px;
     outline: none;
+    /* padding-left: 30px; */
+    margin-left: auto;
+    margin-right: auto;
   
   }
   
-  input[type=text]:hover {
-    box-shadow: 2px 2px 10px lightgray, -2px 2px 10px lightgray;
-  
-  }
+  /* input[type=text]:hover, img.micButton:hover {
+    box-shadow: 0px 0px 10px lightgray, -0px 0px 0px lightgray;
+  } */
   
   #searchBar {
-    background-image: url('http://assets.stickpng.com/thumbs/585e4ae1cb11b227491c3393.png');
+    position: relative;
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/search-1767866-1502119.png');
     background-position-x: 3%;
     background-position-y: center;
-    position: left;
     padding-left: 40px;
-    background-size: 15px;
-    /* background-size: 20px; */
+    background-size: 18px;
     background-repeat: no-repeat;
   }
   
-  .micButton {
+  img.micButton {
+    height: 32px;
+    width: 30px;
     position: absolute;
-    padding-top: .25%;
-    left: 61%;
-    height: 30px;
+    margin: 0;
+    border: 1px solid lightgray;
+    border-left: 0px;
+    border-radius: 0 25px 25px 0; /* tl tr br bl */
+    padding: 5px;
   }
   
+  /* img.micButton:hover {
+    box-shadow: 0px 0px 10px lightgray, -0px 0px 0px lightgray;
+  } */
